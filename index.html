@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Read multiple files and print the names</title>
+  </head>
+  <style>
+    li {
+      list-style-type: none;
+    }
+  </style>
+  <body>
+    <form>
+      <label>Please select the multiple files</label>
+      <input type="file" name="images" multiple/>
+      <button type="submit">Print File Names</button>
+      <p> The file names are </p>
+      <ul id="fileList"></ul>
+    </form>
+  </body>
+  <script src="./index.js"></script>
+</html>
